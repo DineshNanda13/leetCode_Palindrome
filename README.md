@@ -8,8 +8,10 @@ For example, 121 is a palindrome while 123 is not.
 
  */
 
-fun main(args: Array<String>) {
+fun main(args: Array<String>) 
+{
     var input = Solution()
+    
     println(input.isPalindrome(75257))
 }
 
